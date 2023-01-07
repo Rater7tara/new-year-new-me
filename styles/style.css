@@ -1,0 +1,176 @@
+/* banner */
+
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+
+}
+.banner-contant{
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+h1{
+    color: white;
+    font-size: 80px;
+}
+.banner p{
+    color: wheat;
+    font-size: 20px;
+}
+.btn-primary{
+    color: rgb(51, 51, 245);
+    background-color: rgb(247, 247, 247);
+    font-size: 18px;
+    width: 130px;
+    height: 45px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn-primary:hover {
+    background: #2196F3;
+    color: white;
+  }
+
+/* banner end */
+
+/* My failures section start */
+main{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.failures-sec{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+.person-img{
+    height: 100%;
+    width: 50%;
+    margin-left: 50px;
+    text-align: center;
+}
+.failures-content{
+    font-size: 18px;
+    color: rgb(59, 58, 58);
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    margin-right: 50px;
+    text-align: left;
+}
+.failures-sec h2{
+    text-align: left;
+    color: black;
+    font-size: 50px;
+}
+ul{
+    list-style-type:disc;
+}
+li{
+    color: rgb(37, 37, 37);
+    
+}
+
+/* My failures section end */
+
+/* My plans start */
+.my-plans{
+    padding-bottom: 20px;
+}
+.my-plans h2{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.plans h3{
+    font-size: 25px;
+}
+.plans p{
+    font-size: 17px;
+    color: slategray;
+}
+/* My plans end */
+
+/* always keep start */
+.always-keep{
+    background-image: url(../images/watch.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 5px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border: 1px solid red;
+}
+.always-keep-container{
+    text-align: left;
+    padding-left: 25px;
+    margin-left: 20px;
+}
+.always-keep-container h2{
+    font-size: 40px;
+    color: white;
+}
+
+/* always keep end */
+
+/* footer start  */
+footer{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+}
+.future-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.future-content{
+    color: aliceblue;
+}
+h2{
+    color: white;
+    font-size: 40px;
+}
+.future-content p{
+    font-size: 18px;
+}
+.icons{
+    gap: 15px;
+}
+fieldset{
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+.btn{
+    color: rgb(247, 247, 247);
+    background-color: rgb(51, 51, 245);
+    font-size: 18px;
+    width: 130px;
+    height: 45px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.btn:hover {
+    background: #2196F3;
+    color: white;
+}
