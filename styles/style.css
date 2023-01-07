@@ -58,7 +58,8 @@ main{
     margin-left: 50px;
 }
 .failures-content{
-    font-size: 18px;
+    font-size: 19px;
+    font-weight: bold;
     color: rgb(59, 58, 58);
     height: 700px;
     width: 450px;
@@ -68,7 +69,7 @@ main{
 }
 .failures-sec h2{
     text-align: left;
-    color: black;
+    color: rgb(75, 7, 201);
     font-size: 50px;
 }
 li{
@@ -157,6 +158,7 @@ li{
 }
 .strategy-content{
     text-align: center;
+    font-weight: 700;
     border-radius: 2px;
     background-color:rgb(244, 222, 247);
     padding: 20px;
@@ -164,6 +166,7 @@ li{
 }
 .strategy-content-2{
     text-align: center;
+    font-weight: 700;
     border-radius: 2px;
     background-color: rgb(217, 250, 242);
     padding: 20px;
@@ -171,6 +174,7 @@ li{
 }
 .strategy-content-3{
     text-align: center;
+    font-weight: 700;
     border-radius: 2px;
     background-color: papayawhip;
     padding: 20px;
